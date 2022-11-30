@@ -1,0 +1,6 @@
+
+.foot > * {
+    color:aliceblue;
+    background-color: var(--color-bg);
+
+}
