@@ -2,7 +2,6 @@ import React, { useState, useEffect} from "react";
 import ReactMapGL, {Marker, Popup} from "react-map-gl"
 import canyonData from "./data/canyonData.json"
 import Navbar from "./components/Navbar.js"
-import Foot from "./components/Foot";
 import "./App.css"
 //import { Link, NavLink } from "react-router-dom";
 import ImageSlider from "./components/ImageSlider";
@@ -17,12 +16,32 @@ const [viewport, setViewport] = useState({
 });
 
 const [selectedFeature, setSelectedFeature] = useState(null); 
-const slides = [
-    {},
-    {},
-    {},
-    {}
+
+
+const notes = [
+    {title: "notes-chem-weathering", url: "http://localhost:3000/notesImages/notes-chem-weathering.png"},
+    {title: "notes-erosion", url: "http://localhost:3000/notesImages/notes-erosion.png"},
+    {title: "notes-geoprovinces", url: "http://localhost:3000/notesImages/notes-geoprovinces.png"},
+    {title: "notes-masswasting", url: "http://localhost:3000/notesImages/notes-masswasting.png"},
+    {title: "notes-unconformity", url: "http://localhost:3000/notesImages/notes-unconformity.png"},
+    {title: "notes-watertable", url: "http://localhost:3000/notesImages/notes-watertable.jpg"},
+    {title: "Amber Edington 2022", url: "http://localhost:3000/sliderImages/amberedington2022.jpg"},
+    {title: "Canyon", url: "http://localhost:3000/sliderImages/canyon.jpg"},
+    {title: "Danstily Gualong 2022", url: "http://localhost:3000/sliderImages/danstilygualong2022.jpg"},
+    {title: "Richard Blackburn 2016", url: "http://localhost:3000/sliderImages/richardblackburn2016.jpg"},
+    {title: "Soil Horizons", url: "http://localhost:3000/sliderImages/soilhorizons.jpg"},
+    {title: "Tammy Alvarez 2022", url: "http://localhost:3000/sliderImages/tammyalvarez2022.jpg"},
+    {title: "Unconformity", url: "http://localhost:3000/sliderImages/unconformity.jpg"},
+    {title: "Wesley Johnson 2019", url: "http://localhost:3000/sliderImages/wesleyjohnson2019.jpg"}
 ]
+
+
+const containerStyles = {
+    width: '500px',
+    height: '300px',
+    margin: '0 auto'
+
+}
 
 useEffect(() => {
     const listener = e => {
@@ -39,7 +58,6 @@ useEffect(() => {
 return (
     <div className="gradient_bg">
         <Navbar className = "nav"/>
-        <div></div>
         <div className = "map-window">
             <ReactMapGL 
             {...viewport}
@@ -92,8 +110,9 @@ return (
             ) : null }
             </ReactMapGL> 
         </div>
-        <Foot/>
-        <ImageSlider slides = {slides}/>
+        <div style = {containerStyles}>
+            <ImageSlider slides = {notes} className = "slider"/>
+        </div>
     </div>
   )
 }

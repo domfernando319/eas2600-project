@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     padding: 5;
-    margin: 0; 
+    margin: 5; 
     scroll-behavior: smooth;
     font-size: x-large;
     font-family: var(--font-family);
@@ -33,6 +33,7 @@ a {
 
     /* global 94%+ browsers support */
     background:linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(49, 220, 255, 1) 100%);
+
 
 }
 
@@ -67,9 +68,12 @@ a {
 }
 
 .map-window {
-    align-content: center;
+    
     border-radius: 10px;
     box-shadow:rgba(76, 175, 80, 1);
+    margin-top: 5px;
+    margin-bottom: 50px;
+
 }
 
 .nav {
@@ -95,3 +99,6 @@ a {
     border-radius: 20px;
 }
 
+.slider {
+    justify-content: center;
+ }

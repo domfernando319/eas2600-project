@@ -19,7 +19,7 @@
                   "The different colors represent different elements present in the kaolin",
                   "Lavender results from manganese. Tan, yellow, pink, and red are from different levels of iron oxidization with the ground water."
                 ],
-                "media" : "./data/quickfacts.png",
+                "media" : "./data/quickfacts.jpg",
                 "addResource" : "https://gastateparks.org/ProvidenceCanyon"
             },
             "geometry": {
