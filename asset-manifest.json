@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/eas2600-project/static/css/main.4585b88d.css",
+    "main.js": "/eas2600-project/static/js/main.fbbd471b.js",
+    "static/media/horizon1.png": "/eas2600-project/static/media/horizon1.2322949e40d18dfbcc1e.png",
+    "static/media/CanyonWall2.png": "/eas2600-project/static/media/CanyonWall2.59b6aa67ead0af914340.png",
+    "static/media/striations.png": "/eas2600-project/static/media/striations.15262809ca654623a9f4.png",
+    "static/media/magnoliaflower.jpg": "/eas2600-project/static/media/magnoliaflower.f341911fd7c8885d569e.jpg",
+    "static/media/kaolinite.jpg": "/eas2600-project/static/media/kaolinite.d50c558079139dee17d1.jpg",
+    "static/media/masswasting.png": "/eas2600-project/static/media/masswasting.d5d4d37279aa78ebd696.png",
+    "static/media/unconformity.jpg": "/eas2600-project/static/media/unconformity.d94faa0f73eae260be37.jpg",
+    "static/media/watertable.jpg": "/eas2600-project/static/media/watertable.402c7ad8ad87d6ff54ff.jpg",
+    "static/media/quickfacts.jpg": "/eas2600-project/static/media/quickfacts.b41ec9017bbde9cdb09b.jpg",
+    "index.html": "/eas2600-project/index.html",
+    "main.4585b88d.css.map": "/eas2600-project/static/css/main.4585b88d.css.map",
+    "main.fbbd471b.js.map": "/eas2600-project/static/js/main.fbbd471b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4585b88d.css",
+    "static/js/main.fbbd471b.js"
+  ]
+}
