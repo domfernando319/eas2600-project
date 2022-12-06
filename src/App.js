@@ -19,20 +19,20 @@ const [selectedFeature, setSelectedFeature] = useState(null);
 
 
 const notes = [
-    {title: "notes-chem-weathering", url: "http://localhost:3000/notesImages/notes-chem-weathering.png"},
-    {title: "notes-erosion", url: "http://localhost:3000/notesImages/notes-erosion.png"},
-    {title: "notes-geoprovinces", url: "http://localhost:3000/notesImages/notes-geoprovinces.png"},
-    {title: "notes-masswasting", url: "http://localhost:3000/notesImages/notes-masswasting.png"},
-    {title: "notes-unconformity", url: "http://localhost:3000/notesImages/notes-unconformity.png"},
-    {title: "notes-watertable", url: "http://localhost:3000/notesImages/notes-watertable.jpg"},
-    {title: "Amber Edington 2022", url: "http://localhost:3000/sliderImages/amberedington2022.jpg"},
-    {title: "Canyon", url: "http://localhost:3000/sliderImages/canyon.jpg"},
-    {title: "Danstily Gualong 2022", url: "http://localhost:3000/sliderImages/danstilygualong2022.jpg"},
-    {title: "Richard Blackburn 2016", url: "http://localhost:3000/sliderImages/richardblackburn2016.jpg"},
-    {title: "Soil Horizons", url: "http://localhost:3000/sliderImages/soilhorizons.jpg"},
-    {title: "Tammy Alvarez 2022", url: "http://localhost:3000/sliderImages/tammyalvarez2022.jpg"},
-    {title: "Unconformity", url: "http://localhost:3000/sliderImages/unconformity.jpg"},
-    {title: "Wesley Johnson 2019", url: "http://localhost:3000/sliderImages/wesleyjohnson2019.jpg"}
+    {title: "notes-chem-weathering", url: "http://domfernando319.github.io/eas2600-project/notesImages/notes-chem-weathering.png"},
+    {title: "notes-erosion", url: "http://domfernando319.github.io/eas2600-project//notesImages/notes-erosion.png"},
+    {title: "notes-geoprovinces", url: "http://domfernando319.github.io/eas2600-project//notesImages/notes-geoprovinces.png"},
+    {title: "notes-masswasting", url: "http://domfernando319.github.io/eas2600-project//notesImages/notes-masswasting.png"},
+    {title: "notes-unconformity", url: "http://domfernando319.github.io/eas2600-project//notesImages/notes-unconformity.png"},
+    {title: "notes-watertable", url: "http://domfernando319.github.io/eas2600-project//notesImages/notes-watertable.jpg"},
+    {title: "Amber Edington 2022", url: "http://domfernando319.github.io/eas2600-project//sliderImages/amberedington2022.jpg"},
+    {title: "Canyon", url: "http://domfernando319.github.io/eas2600-project//sliderImages/canyon.jpg"},
+    {title: "Danstily Gualong 2022", url: "http://domfernando319.github.io/eas2600-project//sliderImages/danstilygualong2022.jpg"},
+    {title: "Richard Blackburn 2016", url: "http://domfernando319.github.io/eas2600-project//sliderImages/richardblackburn2016.jpg"},
+    {title: "Soil Horizons", url: "http://domfernando319.github.io/eas2600-project//sliderImages/soilhorizons.jpg"},
+    {title: "Tammy Alvarez 2022", url: "http://domfernando319.github.io/eas2600-project//sliderImages/tammyalvarez2022.jpg"},
+    {title: "Unconformity", url: "http://domfernando319.github.io/eas2600-project//sliderImages/unconformity.jpg"},
+    {title: "Wesley Johnson 2019", url: "http://domfernando319.github.io/eas2600-project//sliderImages/wesleyjohnson2019.jpg"}
 ]
 
 
@@ -76,7 +76,7 @@ return (
                         e.preventDefault();
                         setSelectedFeature(feature);
                     }}>
-                    <img src = "/hiker.png" alt = "Hiker Icon" width={"15px"}/>
+                    <img src = "https://upload.wikimedia.org/wikipedia/commons/1/19/Font_Awesome_5_solid_hiking.svg" alt = "Hiker Icon" width={"15px"}/>
                     </button>   
                 </Marker>
             ))}
